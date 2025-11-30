@@ -36,5 +36,29 @@ A pipeline implementada segue os passos:
 
 ---
 
-## 2. Como Rodar o modelo no Google Collabe 
+## 2. Rodando no Google Colab
+
+Também é possível reproduzir todos os experimentos diretamente no **Google Colab**, sem precisar configurar o ambiente localmente.
+
+Passo a passo:
+
+1. Baixe o *dataset* OPSSAT-AD no link indicado acima (Zenodo).
+2. Extraia o arquivo correspondente aos segmentos de telemetria.
+3. Renomeie o arquivo principal de segmentos para: `segments.csv`.
+4. No seu computador, crie uma pasta `data/` (opcional, apenas para organização local).
+5. Baixe o notebook: `LSTMAE_VAE.ipynb`.
+6. Acesse: https://colab.research.google.com
+7. Crie um novo notebook **ou** abra o `LSTMAE_VAE.ipynb` no Colab.
+8. Faça o *upload* do arquivo `segments.csv` (e, se necessário, de `requirements.txt`) no Colab.
+9. Na primeira célula, instale as dependências:
+
+   ```python
+   !pip install -r requirements.txt
+
+10. Garanta que o arquivo de dados esteja no caminho data/segments.csv dentro do ambiente do Colab
+11. Execute o notebook LSTMAE_VAE.ipynb célula a célula para:
+- pré-processar os dados,
+- treinar o LSTM-AE e o VAE,
+- calcular as métricas e gerar as figuras.
+
 
