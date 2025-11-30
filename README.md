@@ -7,6 +7,8 @@ O objetivo é comparar duas arquiteturas de aprendizado profundo baseadas em rec
 
 Aplicadas à detecção **não supervisionada** de anomalias em séries temporais de telemetria de satélites em órbita baixa (LEO), utilizando dados reais da missão **OPS-SAT / OPSSAT-AD (ESA)**.
 
+Dataset : https://zenodo.org/records/12588359?utm_source=chatgpt.com
+
 ---
 
 ## 1. Visão geral da metodologia
