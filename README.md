@@ -9,6 +9,8 @@ Aplicadas à detecção **não supervisionada** de anomalias em séries temporai
 
 Dataset : https://zenodo.org/records/12588359?utm_source=chatgpt.com
 
+Apresentação do projecto : https://www.youtube.com/watch?v=45mI_LAbhz4
+
 ---
 
 ## 1. Visão geral da metodologia
